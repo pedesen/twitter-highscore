@@ -1,0 +1,27 @@
+{
+  "name": "twitter-highscore",
+  "version": "0.0.1",
+  "description": "A local node app which is showing highscores based on a twitter timeline",
+  "author": {
+    "name": "pedesen",
+    "url": "https://github.com/pedesen"
+  },
+ "repository": {
+    "type": "git",
+    "url": "https://github.com/pedesen/twitter-highscore"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^11.1.0",
+    "jsonfile": "^2.2.1",
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "serve": "^1.4.0",
+    "twit": "^2.1.0"
+  },
+  "scripts": {
+    "build": "browserify highscore.js > public/bundle.js",
+    "serve": "serve public",
+    "start": "npm run build && npm run serve"
+  }
+}
