@@ -1,0 +1,15 @@
+{
+  "twitter": {
+    "consumer_key": "",
+    "consumer_secret": "",
+    "access_token": "",
+    "access_token_secret": ""
+  },
+  "screen_name": "camunda_demo",
+  "since_id": 638678014327439360,
+  "regex": "Woooha! (.*) has won the #bpmnQuest and reached (\\d*) XP!",
+  "num_top": 15,
+  "from_date": "2015-09-01 00:30",
+  "to_date": "2015-09-30 23:30",
+  "refresh": 30
+}

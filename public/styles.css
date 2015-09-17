@@ -1,12 +1,15 @@
 body {
   background-color: #000;
   color: #fff;
+  padding-top: 80px;
 }
 
 h1 {
   text-align: center;
   font-size: 80;
+  font-family: 'Fredericka the Great', cursive;
   font-weight: bold;
+  text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
 }
 
 #highscore {
@@ -15,6 +18,7 @@ h1 {
 }
 
 #highscore tr td {
+  font-family: 'Press Start 2P', cursive;
   font-size: 24px;
   color: #ddd;
   padding-bottom: 10px;
@@ -33,6 +37,7 @@ h1 {
 }
 
 #last_update {
+  font-family: 'Press Start 2P', cursive;
   font-size: 16px;
   text-align: center;
   margin-top: 50px;
