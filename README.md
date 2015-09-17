@@ -5,7 +5,7 @@ A local node app which is showing highscores based on a twitter timeline
 
 Create a new Twitter App here: https://apps.twitter.com/
 
-Create a file named config.json and paste in your twitter credentials from the link above (see config_example.json)
+Create a file named config.json and paste in your twitter credentials from the link above (see [config_example.json](config_example.json))
 
 Add some more configuration properties to config.json:
 
