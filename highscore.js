@@ -125,7 +125,7 @@ function getHighscore(user, done) {
 
       latestTweet = data[data.length-1];
 
-      if (latestTweet) {
+      if(data.length >= 200) {
         return search(latestTweet.id);
       }
 
