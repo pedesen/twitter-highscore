@@ -1,6 +1,8 @@
 # twitter-highscore
 A local node app which is showing highscores based on a twitter timeline
 
+<img src="http://www.pedesen.de/images/highscore.png" width="600"/>
+
 ## Getting Started
 
 Create a new Twitter App here: https://apps.twitter.com/
